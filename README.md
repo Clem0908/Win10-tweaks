@@ -24,7 +24,7 @@
 
 - `.\Microsoft.MicrosoftEdge_[version_number]_remove`
 
-## Remove the entry in the Start Menu:
+We can also remove the entry in the Start Menu:
 
 - Search for Edge
 
@@ -33,4 +33,18 @@
 - 'Open the file location'
 
 - Delete the shortcut
+
+# How to disable Aero Peek
+
+- Right click on the task bar
+
+- Task bar settings
+
+- Uncheck 'Use Aero Peek'
+
+# How to disable visual effects
+
+- Windows + R: 'sysdm.cpl'
+
+- Advanced -> Performance: Settings -> 'Adjust for best perfomance'
 
