@@ -18,7 +18,19 @@
 
 - Open a Powershell as Administrator
 
-- `chdir 'C:\Program Files (x86)\Microsoft\Edge\Application\[version_number]\Installer\'`
+- `chdir 'C:\Windows\SystemApps\'`
 
-- `.\setup.exe --uninstall --system-level --verbose-logging --force-uninstall`
+- `Rename-Item '.\Microsoft.MicrosoftEdge_[version_number]\'`
+
+- `.\Microsoft.MicrosoftEdge_[version_number]_remove`
+
+## Remove the entry in the Start Menu:
+
+- Search for Edge
+
+- Right click on it
+
+- 'Open the file location'
+
+- Delete the shortcut
 
