@@ -10,3 +10,7 @@
 
 - Reboot
 
+# How to enable GodMode / direct access to settings
+
+- Create a new folder on the desktop and rename it like this: `GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`
+
