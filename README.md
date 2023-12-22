@@ -14,3 +14,11 @@
 
 - Create a new folder on the desktop and rename it like this: `GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`
 
+# How to uninstall Microsoft Edge
+
+- Open a Powershell as Administrator
+
+- `chdir 'C:\Program Files (x86)\Microsoft\Edge\Application\[version_number]\Installer\'`
+
+- `.\setup.exe --uninstall --system-level --verbose-logging --force-uninstall`
+
