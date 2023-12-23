@@ -4,7 +4,7 @@
 
 - Create a new key at `Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows` named `Explorer`
 
-- Create a new DWORD (32-bit) key named `DisableSearchBoxSuggestions`
+- Create a new DWORD (32-bit) named `DisableSearchBoxSuggestions`
 
 - Set it to 1 in hexadecimal
 
@@ -48,3 +48,16 @@ We can also remove the entry in the Start Menu:
 
 - Advanced -> Performance: Settings -> 'Adjust for best perfomance'
 
+# How to disable Windows Update
+
+- Open regedit / Registry Editor
+
+- Create a new key at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows` named `WindowsUpdate`
+
+- Create a new second key at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate` named `AU`
+
+- Create a new DWORD (32-bit) named `NoAutoUpdate` 
+
+- Set it to 1 in hexadecimal
+
+- Reboot
