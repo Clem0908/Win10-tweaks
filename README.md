@@ -61,3 +61,11 @@ We can also remove the entry in the Start Menu:
 - Set it to 1 in hexadecimal
 
 - Reboot
+
+# How to install Windows Subsystem for Linux (WSL)
+
+- Open a Powershell
+
+- `wsl --install -d Debian`
+
+- `shutdown /r`
