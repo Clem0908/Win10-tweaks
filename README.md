@@ -1,5 +1,7 @@
 # Disable Windows Web Search in Start Menu
 
+- Easy method with this [file](NoWebSearchStartMenu.reg)
+
 - Open regedit / Registry Editor
 
 - Create a new key at `Computer\HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows` named `Explorer`
